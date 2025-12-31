@@ -1,4 +1,4 @@
-PDF File Reader
+# PDF File Reader
 
 ## Overview
 This notebook automates the extraction of data from PDF files, converting specific information into structured tables for analysis, integration, and process automation in Databricks environments. The project is designed to serve three main audiences: development team, maintenance staff, and management.
