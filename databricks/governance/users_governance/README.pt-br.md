@@ -4,7 +4,7 @@
 Este notebook automatiza a criação, atualização e consulta de uma tabela de usuários para governança de dados, integrando informações de auditoria de acesso e atributos de usuários.
 
 - Tabela:
-<img width="1860" height="940" alt="image" src="https://github.com/user-attachments/assets/c7c9543d-9824-4562-8f2c-b3c0551ac6ee" />
+<img width="1860" height="940" alt="image" src="https://github.com/user-attachments/assets/a9519cca-e345-4a3b-be9b-b25ba3f82033" />
 
 
 - Notebook:
