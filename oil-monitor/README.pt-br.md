@@ -1,8 +1,9 @@
 #  Monitor de pressão de óleo para determinar a vida util do filtro de óleo veícular.
+Meu primeiro projeto envolvendo programação, realizado como trabalho de conclusão de curso na FATEC Santo André no Curso de Mecânica Automobilistica  durante o periodo de lockdown.
 
 <img width="1865" height="868" alt="Leitura de Pressão de óleo" src="https://github.com/user-attachments/assets/471e0661-3c99-48fe-9d8f-593c28c555e3" />
 
-<br> Meu primeiro projeto envolvendo programação, realizado como trabalho de conclusão de curso na FATEC Santo André no Curso de Mecânica Automobilistica  durante o periodo de lockdown. <br>
+---
 
 ## Leitura de Pressão de Óleo
 ### Origem do projeto
@@ -17,8 +18,8 @@
 
 O desenvolvimento foi bem trabalhoso, muitas madrugadas a fio tentando escrever um código, criar o projeto tendo que realizar uma série de adaptações devido a limitações da plataforma e muito aprendizado da linguagem **C++ **. 
 
+---
+
 ## Link de acesso
 
-<br> O projeto atualmente encontra-se salvo no TinkerCad, disponível para a visualização. <br>
-<br> Link de acesso:<br>
-https://www.tinkercad.com/things/eBodkIf6JkG-publico-leitura-de-pressao-de-oleo?sharecode=QApwC96Fn0rooluCqMepgcrxkiIbAaC_hmgHPhg76UU
+ O projeto atualmente encontra-se salvo no TinkerCad, disponível para a visualização [Leitor de pressao de óleo](https://www.tinkercad.com/things/eCA6acY9CCD-leitura-de-pressao-de-oleo/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
