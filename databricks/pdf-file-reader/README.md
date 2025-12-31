@@ -5,7 +5,7 @@ This notebook automates the extraction of data from PDF files, converting specif
 
 ---
 
-## 1. Development Team
+## 1. Development Process
 ### Technical Objective
 Automate the extraction of data from standardized PDFs using coordinate vectors and the `pdfplumber` library, generating DataFrames ready for analysis, integration, or export.
 
@@ -48,7 +48,7 @@ The notebook can be expanded to process multiple pages or different types of doc
 
 ---
 
-## 3. Management and Value Perception
+## 3. Results and Value Perception
 ### Strategic Benefits
 * Agility in operational data analysis and integration.
 * Improved traceability and process governance.
