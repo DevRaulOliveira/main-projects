@@ -77,7 +77,3 @@ graph TD;
 * Certifique-se de que o caminho do arquivo PDF está correto e acessível no ambiente.
 * Ajuste as áreas de extração conforme a estrutura do documento PDF analisado.
 * Documente todas as alterações realizadas para garantir rastreabilidade e facilitar futuras adaptações.
-
----
-
-Esta documentação avançada foi revisada para garantir máxima clareza, riqueza de detalhes e facilidade de manutenção. Siga as orientações para adaptar o notebook conforme suas necessidades e garantir resultados confiáveis.
