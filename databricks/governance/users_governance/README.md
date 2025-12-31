@@ -1,4 +1,4 @@
-User Management Notebook
+# User Management Notebook
 
 ## Overview
 This notebook automates the creation, update, and query of a user table for data governance, integrating access audit information and user attributes.
