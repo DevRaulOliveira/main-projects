@@ -2,6 +2,9 @@
 
 My first project involving programming, developed as a final capstone project at FATEC Santo André for the Automotive Mechanics course during the lockdown period.
 
+<img width="1865" height="868" alt="Leitura de Pressão de óleo" src="https://github.com/user-attachments/assets/b69af2ea-6fd8-459e-ac7d-f117baff7d1c" />
+
+
 ## Oil Pressure Reading
 ---
 ### Project Origin
