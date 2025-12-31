@@ -1,5 +1,7 @@
 #  Monitor de pressão de óleo para determinar a vida util do filtro de óleo veícular.
-![OilMonitor](https://api-reader.tinkercad.com/api/images/ez3vH38YpB1/t725.jpg)
+
+<img width="1865" height="868" alt="Leitura de Pressão de óleo" src="https://github.com/user-attachments/assets/471e0661-3c99-48fe-9d8f-593c28c555e3" />
+
 <br> Meu primeiro projeto envolvendo programação, realizado como trabalho de conclusão de curso na FATEC Santo André no Curso de Mecânica Automobilistica  durante o periodo de lockdown. <br>
 
 ## Leitura de Pressão de Óleo
