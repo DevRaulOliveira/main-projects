@@ -66,7 +66,3 @@ Automate the consolidation of user data from access audits and attribute sources
 * Ensure the CSV file path and audit table are accessible and up-to-date
 * Adjust schema and logic as organizational needs evolve
 * Document all changes for future maintenance and audits
-
----
-
-This advanced documentation is designed for clarity, detail, and ease of maintenance. Follow the guidelines to adapt the notebook as needed and ensure reliable, valuable results.
