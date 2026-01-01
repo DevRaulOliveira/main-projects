@@ -1,4 +1,3 @@
-%md
 # Database Update Monitoring: Documentation & Workflow
 
 <img width="1280" height="460" alt="image" src="https://github.com/user-attachments/assets/d1321345-11a3-41b1-ab25-c8c51feb7288" />
