@@ -1,9 +1,9 @@
 # Adventure Works
 O projeto Adventure Works, foi criado ao longo do desenvolvimento da realização do curso **"Técnicas Avançadas de Power BI"**, ministrado por Karine Lago.
 
-<img width="1857" height="906" alt="image" src="https://github.com/user-attachments/assets/8709d5b0-957f-466a-8fd7-1ee0b31a0378" />
+<img width="1790" height="870" alt="image" src="https://github.com/user-attachments/assets/f0ce0797-f2f0-4e3d-b127-216225b2fe8c" />
 
-
+--- 
 ## Desenvolvimento
 
 Basicamente o projeto do curso, se baseou em realizar a manipulação de dados de um arquivo do Microsoft Access. Base de dados muito conhecido por que realiza cursos que utilizam fontes de dados da Microsoft como objeto de estudo. Nesta base estão contidas informações de uma empresa fictícia chamada "Adventure Works", no qual contem algumas informações básicas de produtos, pedidos e alguns outros detalhes da empresa. A proposta do projeto foi mostrar a etapa de conexão das informações do Microsoft Access junto ao Power Query do Power Bi. A conexão foi feita utilizando linguagem M, porém não foi necessário realizar ajustes consideráveis nos dados, já que os mesmos vieram padronizados e de fácil compreensão. O ponto principal deste projeto foi realizar a manipulação de dados afim de gerar informações uteis em formato de Dahsboard, utilizando Lógica de Programação e algumas formulas em DAX. Os conceitos abordados vão desde relacionamentos, até medidas e colunas calculadas, incluindo também alguns visuais disponíveis na ferramenta. Vale citar que como já trabalho com essa ferramenta no dia a dia resolvi ir um passo além e também colocar em pratica o desenvolvimento de Dashboards mais harmônicos e sustentáveis, com pouca ou praticamente nenhuma tabela, porém sem deixar de demonstrar informações importantes para o usuário. Outro ponto utilizado foram as criações de botões e guias informativas e a criação de uma homepage, com o objetivo de quebrar o paradigma de que o Power BI se limita a ser um Microsoft Excel mais "bonito".
