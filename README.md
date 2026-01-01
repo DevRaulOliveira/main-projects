@@ -4,4 +4,4 @@
 
 ---
 # Sumary
-A Power BI development made to practice all knowledge from data analysys course. See more into [Adventure Works](https://github.com/DevRaulOliveira/main-projects/tree/Main/adventure-works)
+A Power BI development made to practice all knowledge from data analysys course "Advanced Power BI Techniques", that I could lear more about data-viz concepts. See more into [Adventure Works](https://github.com/DevRaulOliveira/main-projects/tree/Main/adventure-works)
