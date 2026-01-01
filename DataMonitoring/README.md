@@ -1,7 +1,5 @@
 # DataMonitoring
 
-![DataMonitoring](https://github.com/user-attachments/assets/a5b17e74-660c-4135-b3b5-bbc796c828c9)<br>
-
 ## What is the project?
 
 A project made to check if some databases in Oracle are being updated corretly. This project was developed using the following technology: <br>
