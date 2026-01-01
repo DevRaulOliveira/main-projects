@@ -1,0 +1,16 @@
+DECLARE
+  v_ano NUMBER := EXTRACT(YEAR FROM SYSDATE);
+BEGIN
+  WHILE v_ano <= 2049 LOOP
+    -- Insere os feriados para o ano atual do loop, mantendo o dia e o mês originais
+    INSERT INTO TBL_FERIADO (DATA, COD_UF, UF, ESTADO, COD_MUN, MUNICIPIO, FERIADO, TIPO_FERIADO, DIA_SEMANA)
+    SELECT TO_DATE(v_ano || '-' || TO_CHAR(DATA, 'MM-DD'), 'YYYY-MM-DD'), 
+           COD_UF, UF, ESTADO, COD_MUN, MUNICIPIO, FERIADO, TIPO_FERIADO, TO_CHAR(TO_DATE(v_ano || '-' || TO_CHAR(DATA, 'MM-DD'), 'YYYY-MM-DD'), 'DAY')
+    FROM TBL_FERIADO
+    WHERE EXTRACT(YEAR FROM DATA) = EXTRACT(YEAR FROM SYSDATE)
+    AND NOT EXISTS (
+      SELECT 1 FROM TBL_FERIADO WHERE EXTRACT(YEAR FROM DATA) = v_ano
+    );
+    v_ano := v_ano + 1;
+  END LOOP;
+END;
