@@ -5,12 +5,10 @@ This notebook automates the creation, update, and query of a user table for data
 
 
 - Table:
-<img width="1860" height="940" alt="image" src="https://github.com/user-attachments/assets/dcfa5e93-0937-4355-99e9-333e6f62a580" />
-
+<img width="1860" height="970" alt="image" src="https://github.com/user-attachments/assets/ab877c1f-2d91-43a0-b16e-d1469dc7837c" />
 
 - Notebook:
 <img width="1860" height="940" alt="image" src="https://github.com/user-attachments/assets/ea06d459-6781-45fe-a178-93ca2693e80d" />
-
 
 - Pipeline:
 <img width="1860" height="940" alt="image" src="https://github.com/user-attachments/assets/f7a875f8-f335-4825-bd9e-d4de6a463a32" />
