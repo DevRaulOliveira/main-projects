@@ -9,6 +9,7 @@ This documentation contains a sumary of all my mainly projects, showing into usi
 My first project involving programming, developed as a final capstone project at FATEC Santo André for the Automotive Mechanics course during the lockdown period. See more into [Oil Pressure Monitor](https://github.com/DevRaulOliveira/main-projects/tree/Main/oil-monitor)
 
 ---
+# Power BI
 ## Adventure Works
 
 <img width="1790" height="870" alt="image" src="https://github.com/user-attachments/assets/f0ce0797-f2f0-4e3d-b127-216225b2fe8c" />
@@ -17,6 +18,7 @@ My first project involving programming, developed as a final capstone project at
 A Power BI development made to practice all knowledge from data analysys course "Advanced Power BI Techniques", that I could lear more about data-viz concepts. See more into [Adventure Works](https://github.com/DevRaulOliveira/main-projects/tree/Main/adventure-works)
 
 ---
+# Data Governance
 ## Data Monitoring
 
 <img width="1280" height="460" alt="image" src="https://github.com/user-attachments/assets/d1321345-11a3-41b1-ab25-c8c51feb7288" />
@@ -36,7 +38,7 @@ On this topic, there is information about all projects made using **Databricks**
 ### Overview
 A **notebook** created to automates creation, update, and query of a user table for data governance, integrating access audit information and user attributes. The idea of creation of this solution is beacuse since the moment this solution was created there is no native way to get all the information from *Databricks* **system tables**, so I created this way to control all workspace user's informations. See more at [User Management Notebook](https://github.com/DevRaulOliveira/main-projects/tree/Main/databricks/governance/users_governance)
 
-## 2. Databricks: PDF Reader
+## Databricks: PDF Reader
 
 - PDF File
 <img width="1860" height="970" alt="image" src="https://github.com/user-attachments/assets/44d596ad-5424-4214-b978-5d2fc6879c34" />
