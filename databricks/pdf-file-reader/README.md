@@ -1,91 +1,165 @@
-# PDF File Reader
+<a id="topo"></a>
 
-## Overview
-This notebook automates the extraction of data from PDF files, converting specific information into structured tables for analysis, integration, and process automation in Databricks environments.
+# Conversor de arquivos PDFs em dados tabulares
 
----
+**🌐 Idioma / Language:** [Português](#pt) | [English](#en)
 
-- PDF File:
-
-<img width="1337" height="1045" alt="image" src="https://github.com/user-attachments/assets/37c033da-dacf-4e1c-9b55-5e23b0ba005b" />
-
-
-
-- Data:
-
-<img width="1867" height="973" alt="image" src="https://github.com/user-attachments/assets/d804cce3-f8d3-42d8-93ff-89b401bec367" />
+<img width="1867" height="973" alt="Dados extraídos / Extracted data" src="https://github.com/user-attachments/assets/d804cce3-f8d3-42d8-93ff-89b401bec367" />
 
 ---
 
-## 1. Development Process
-### Technical Objective
-Automate the extraction of data from standardized PDFs using coordinate vectors and the `pdfplumber` library, generating DataFrames ready for analysis, integration, or export.
+<a id="pt"></a>
 
-### Technical Flowchart
+## 🇧🇷 Português
+
+
+### 📌 Sobre o projeto
+
+O **Conversor de arquivos PDFs em dados tabulares** é um notebook que extrai informações específicas de arquivos PDF e as converte em tabelas estruturadas, em ambientes Databricks.
+
+O objetivo é automatizar a extração de dados de PDFs padronizados e gerar DataFrames prontos para análise, integração ou exportação.
+
+
+### 🗂️ Fonte de dados
+
+- **Origem:** arquivos PDF padronizados.
+- **Conteúdo:** informações específicas localizadas por vetores de coordenadas.
+- **Observação:** o caminho do arquivo deve estar correto e acessível no ambiente.
+
+
+### ⚙️ Desenvolvimento
+
+1. **Preparação do ambiente:** instalação da biblioteca e reinicialização do cluster.
+2. **Mapeamento:** definição dos vetores de coordenadas e das colunas, na mesma ordem.
+3. **Extração:** leitura das áreas definidas com `pdfplumber`.
+4. **Estruturação:** montagem do DataFrame.
+5. **Validação:** teste e conferência dos resultados. Os vetores devem ser ajustados ao layout do PDF.
+
+**Arquivo PDF**
+
+<img width="1337" height="1045" alt="Arquivo PDF" src="https://github.com/user-attachments/assets/37c033da-dacf-4e1c-9b55-5e23b0ba005b" />
+
+
+### 🔀 Fluxo do projeto
+
 ```mermaid
-graph TD;
-    A[Library installation] --> B[Cluster restart];
-    B --> C[Definition of vectors];
-    C --> D[Column mapping];
-    D --> E[Data extraction];
-    E --> F[DataFrame creation];
-    F --> G[Result validation];
+flowchart TD
+    A[("Arquivo PDF")] --> D["Extração<br/>pdfplumber"]
+    B["Preparação<br/>Instalação e reinício do cluster"] --> C["Mapeamento<br/>Vetores e colunas"]
+    C --> D
+    D --> E["DataFrame<br/>Dados estruturados"]
+    E --> F(["Validação dos resultados"])
 ```
 
-### Critical Points
-* Vectors must be adjusted according to the PDF layout.
-* Columns must match the order of the vectors.
-* Testing and validation are essential to ensure accuracy.
+
+### ✨ Funcionalidades
+
+- Extração de dados por vetores de coordenadas
+- Mapeamento das colunas
+- Geração de DataFrames
+
+
+### 💼 Valor gerado e ganhos de negócio
+
+O projeto transforma informações de arquivos PDF em tabelas estruturadas. A solução pode gerar:
+
+| Valor gerado | Ganho de negócio potencial |
+|---|---|
+| Extração automatizada | Mais agilidade, menos custos e riscos operacionais |
+| Dados estruturados | Relatórios, insights e decisões mais rápidas |
+| Processo padronizado | Mais rastreabilidade e governança |
+| Lógica adaptável | Expansão para outras páginas, documentos e áreas |
+| Dados disponíveis para análise | Alinhamento entre TI e áreas estratégicas |
+
+> **Nota:** os ganhos são potenciais e não foram medidos. A expansão exige adaptar a lógica de extração.
+
+
+### 🛠️ Tecnologias utilizadas
+
+| Tecnologia | Finalidade |
+|---|---|
+| Databricks | Ambiente de execução do notebook |
+| pdfplumber | Extração dos dados do PDF |
+| DataFrame | Estruturação dos dados |
+
+[⬆️ Voltar ao topo](#topo)
+
 
 ---
 
-## 2. Maintenance and Continuity
-### Guidelines
-* Update vectors and column names if the PDF layout changes.
-* Test extraction with different files to ensure consistency.
-* Document all changes for traceability.
-* Adapt exception handling for specific scenarios.
 
-### Maintenance Flowchart
+<a id="en"></a>
+
+## 🇺🇸 English
+
+
+### 📌 About the project
+
+**PDF files to tabular data converter** is a notebook that extracts specific information from PDF files and converts it into structured tables, in Databricks environments.
+
+Its goal is to automate data extraction from standardized PDFs and generate DataFrames ready for analysis, integration or export.
+
+
+### 🗂️ Data source
+
+- **Origin:** standardized PDF files.
+- **Content:** specific information located by coordinate vectors.
+- **Note:** the file path must be correct and accessible in the environment.
+
+
+### ⚙️ Development
+
+1. **Environment setup:** library installation and cluster restart.
+2. **Mapping:** definition of coordinate vectors and columns, in the same order.
+3. **Extraction:** reading the defined areas with `pdfplumber`.
+4. **Structuring:** DataFrame creation.
+5. **Validation:** testing and checking the results. Vectors must be adjusted to the PDF layout.
+
+**PDF file**
+
+<img width="1337" height="1045" alt="PDF file" src="https://github.com/user-attachments/assets/37c033da-dacf-4e1c-9b55-5e23b0ba005b" />
+
+
+### 🔀 Project flow
+
 ```mermaid
-graph TD;
-    H[Receipt of new layout] --> I[Extraction test];
-    I --> J[Adjustment of vectors/columns];
-    J --> K[Data validation];
-    K --> L[Documentation of changes];
+flowchart TD
+    A[("PDF file")] --> D["Extraction<br/>pdfplumber"]
+    B["Setup<br/>Installation and cluster restart"] --> C["Mapping<br/>Vectors and columns"]
+    C --> D
+    D --> E["DataFrame<br/>Structured data"]
+    E --> F(["Result validation"])
 ```
 
-### Expansion
-The notebook can be expanded to process multiple pages or different types of documents by adapting the extraction logic.
 
----
+### ✨ Features
 
-## 3. Results and Value Perception
-### Strategic Benefits
-* Agility in operational data analysis and integration.
-* Improved traceability and process governance.
-* Easier generation of strategic reports and insights.
-* Cost reduction and mitigation of operational risks.
+- Data extraction by coordinate vectors
+- Column mapping
+- DataFrame generation
 
-### Value Flowchart
-```mermaid
-graph TD;
-    M[Receipt of PDFs] --> N[Automated processing];
-    N --> O[Extraction of relevant data];
-    O --> P[Result validation];
-    P --> Q[Delivery of structured data];
-    Q --> R[Availability for analysis/decision];
-```
 
-### Business Impact
-* Real-time managerial decision-making.
-* Standardization of the data acquisition process.
-* Scalability for different documents and business areas.
-* Alignment between IT and strategic areas, accelerating digital transformation.
+### 💼 Value delivered and business gains
 
----
+The project turns information from PDF files into structured tables. The solution can deliver:
 
-## Important Notes
-* Ensure the PDF file path is correct and accessible in the environment.
-* Adjust extraction areas according to the structure of the analyzed PDF document.
-* Document all changes to ensure traceability and facilitate future adaptations.
+| Value delivered | Potential business gain |
+|---|---|
+| Automated extraction | More agility, lower operational costs and risks |
+| Structured data | Reports, insights and faster decisions |
+| Standardized process | Better traceability and governance |
+| Adaptable logic | Expansion to other pages, documents and areas |
+| Data available for analysis | Alignment between IT and strategic areas |
+
+> **Note:** these gains are potential and have not been measured. Expansion requires adapting the extraction logic.
+
+
+### 🛠️ Technologies used
+
+| Technology | Purpose |
+|---|---|
+| Databricks | Notebook runtime environment |
+| pdfplumber | PDF data extraction |
+| DataFrame | Data structuring |
+
+[⬆️ Back to top](#topo)
