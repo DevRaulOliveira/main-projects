@@ -18,11 +18,13 @@ O **Adventure Works** foi desenvolvido durante o curso **"Técnicas Avançadas d
 
 O objetivo é demonstrar a conexão entre o Microsoft Access e o Power Query do Power BI e transformar os dados em informações úteis em formato de dashboard.
 
+
 ### 🗂️ Fonte de dados
 
 - **Origem:** arquivo do Microsoft Access.
 - **Conteúdo:** informações básicas de produtos, pedidos e outros detalhes da empresa.
 - **Observação:** a Adventure Works é uma empresa fictícia, e sua base é muito conhecida por quem faz cursos que usam fontes de dados da Microsoft.
+
 
 ### ⚙️ Desenvolvimento
 
@@ -30,6 +32,7 @@ O objetivo é demonstrar a conexão entre o Microsoft Access e o Power Query do 
 2. **Tratamento:** não foram necessários ajustes consideráveis, pois os dados já vieram padronizados e de fácil compreensão.
 3. **Modelagem:** relacionamentos, medidas e colunas calculadas, com lógica de programação e fórmulas DAX.
 4. **Visualização:** dashboard mais harmônico e sustentável, com poucas ou praticamente nenhuma tabela, sem deixar de apresentar as informações importantes.
+
 
 ### 🔀 Fluxo do projeto
  
@@ -43,12 +46,15 @@ flowchart TD
     E --> F(["Publicação na web<br/>Power BI"])
 ```
 
+
+
 ### ✨ Funcionalidades
 
 - Página inicial (homepage)
 - Botões
 - Guias informativas
 - Diferentes visuais disponíveis no Power BI
+
 
 ### 💼 Valor gerado e ganhos de negócio
  
@@ -65,6 +71,7 @@ O projeto transforma os dados armazenados no Microsoft Access em uma visão visu
  
 > **Nota:** por se tratar de um projeto de estudo com uma empresa fictícia, os ganhos são potenciais e não foram medidos.
 
+
 ### 🛠️ Tecnologias utilizadas
 
 | Tecnologia | Finalidade |
@@ -74,6 +81,7 @@ O projeto transforma os dados armazenados no Microsoft Access em uma visão visu
 | Linguagem M | Conexão dos dados no Power Query |
 | DAX | Medidas e colunas calculadas |
 | Unsplash | Imagens de uso gratuito |
+
 
 ### 🔗 Acesso
 
@@ -85,11 +93,14 @@ Por já trabalhar com Power BI no dia a dia, resolvi ir um passo além do curso 
 
 [⬆️ Voltar ao topo](#topo)
 
+
 ---
+
 
 <a id="en"></a>
 
 ## 🇺🇸 English
+
 
 ### 📌 About the project
 
@@ -97,11 +108,13 @@ Por já trabalhar com Power BI no dia a dia, resolvi ir um passo além do curso 
 
 Its goal is to demonstrate the connection between Microsoft Access and Power BI's Power Query, and to turn the data into useful information in a dashboard.
 
+
 ### 🗂️ Data source
 
 - **Origin:** Microsoft Access file.
 - **Content:** basic information on products, orders and other company details.
 - **Note:** Adventure Works is a fictitious company, and its database is well known to those who take courses based on Microsoft data sources.
+
 
 ### ⚙️ Development
 
@@ -109,6 +122,7 @@ Its goal is to demonstrate the connection between Microsoft Access and Power BI'
 2. **Preparation:** no significant cleaning was required, as the data was already standardized and easy to understand.
 3. **Modeling:** relationships, measures and calculated columns, using programming logic and DAX formulas.
 4. **Visualization:** a more harmonious and sustainable dashboard, with few or almost no tables, while still presenting critical information.
+
 
 ### 🔀 Project flow
  
@@ -122,12 +136,14 @@ flowchart TD
     E --> F(["Web publishing<br/>Power BI"])
 ```
 
+
 ### ✨ Features
 
 - Homepage
 - Buttons
 - Informative guides
 - A variety of Power BI visuals
+
 
 ### 💼 Value delivered and business gains
  
@@ -144,6 +160,7 @@ The project turns the data stored in Microsoft Access into a visual, navigable v
  
 > **Note:** as this is a study project based on a fictitious company, these gains are potential and have not been measured.
 
+
 ### 🛠️ Technologies used
 
 | Technology | Purpose |
@@ -154,9 +171,11 @@ The project turns the data stored in Microsoft Access into a visual, navigable v
 | DAX | Measures and calculated columns |
 | Unsplash | Royalty-free images |
 
+
 ### 🔗 Access
 
 The dashboard is available at: [Adventure Works](https://app.powerbi.com/view?r=eyJrIjoiMWE4NzgzZjItN2NmMS00NzZhLWIwNWEtNzUyMTU2OTMwNWNmIiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9&embedImagePlaceholder=true)
+
 
 ### 📚 Lessons learned
 
