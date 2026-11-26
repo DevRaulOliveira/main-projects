@@ -50,6 +50,21 @@ flowchart TD
 - Guias informativas
 - Diferentes visuais disponíveis no Power BI
 
+### 💼 Valor gerado e ganhos de negócio
+ 
+O projeto transforma os dados armazenados no Microsoft Access em uma visão visual e navegável, para apoiar a tomada de decisão. Aplicada em um cenário real, a solução pode gerar:
+ 
+| Valor gerado | Ganho de negócio potencial |
+|---|---|
+| Informações de produtos e pedidos reunidas em um dashboard | Visão mais clara da operação |
+| Visuais no lugar de tabelas extensas | Leitura e interpretação mais rápidas |
+| Medidas em DAX com regras definidas no modelo | Indicadores calculados de forma consistente |
+| Conexão estruturada no Power Query | Menos trabalho manual na atualização das análises |
+| Homepage, botões e guias informativas | Uso mais intuitivo por quem não é da área técnica |
+| Publicação na web | Acesso e compartilhamento facilitados |
+ 
+> **Nota:** por se tratar de um projeto de estudo com uma empresa fictícia, os ganhos são potenciais e não foram medidos.
+
 ### 🛠️ Tecnologias utilizadas
 
 | Tecnologia | Finalidade |
@@ -113,6 +128,21 @@ flowchart TD
 - Buttons
 - Informative guides
 - A variety of Power BI visuals
+
+### 💼 Value delivered and business gains
+ 
+The project turns the data stored in Microsoft Access into a visual, navigable view to support decision-making. Applied to a real scenario, the solution can deliver:
+ 
+| Value delivered | Potential business gain |
+|---|---|
+| Product and order information brought together in a dashboard | A clearer view of the operation |
+| Visuals instead of long tables | Faster reading and interpretation |
+| DAX measures with rules defined in the model | Consistently calculated indicators |
+| Structured connection in Power Query | Less manual work to update analyses |
+| Homepage, buttons and informative guides | More intuitive use for non-technical people |
+| Web publishing | Easier access and sharing |
+ 
+> **Note:** as this is a study project based on a fictitious company, these gains are potential and have not been measured.
 
 ### 🛠️ Technologies used
 
