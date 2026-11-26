@@ -31,6 +31,18 @@ O objetivo é demonstrar a conexão entre o Microsoft Access e o Power Query do 
 3. **Modelagem:** relacionamentos, medidas e colunas calculadas, com lógica de programação e fórmulas DAX.
 4. **Visualização:** dashboard mais harmônico e sustentável, com poucas ou praticamente nenhuma tabela, sem deixar de apresentar as informações importantes.
 
+### 🔀 Fluxo do projeto
+ 
+```mermaid
+flowchart TD
+    A[("Microsoft Access")] --> B["Power Query<br/>Conexão com linguagem M"]
+    B --> C["Modelagem<br/>Relacionamentos"]
+    C --> D["DAX<br/>Medidas e colunas calculadas"]
+    D --> E["Dashboard<br/>Homepage, botões, guias e visuais"]
+    U["Unsplash<br/>Imagens"] --> E
+    E --> F(["Publicação na web<br/>Power BI"])
+```
+
 ### ✨ Funcionalidades
 
 - Página inicial (homepage)
@@ -82,6 +94,18 @@ Its goal is to demonstrate the connection between Microsoft Access and Power BI'
 2. **Preparation:** no significant cleaning was required, as the data was already standardized and easy to understand.
 3. **Modeling:** relationships, measures and calculated columns, using programming logic and DAX formulas.
 4. **Visualization:** a more harmonious and sustainable dashboard, with few or almost no tables, while still presenting critical information.
+
+### 🔀 Project flow
+ 
+```mermaid
+flowchart TD
+    A[("Microsoft Access")] --> B["Power Query<br/>M language connection"]
+    B --> C["Modeling<br/>Relationships"]
+    C --> D["DAX<br/>Measures and calculated columns"]
+    D --> E["Dashboard<br/>Homepage, buttons, guides and visuals"]
+    U["Unsplash<br/>Images"] --> E
+    E --> F(["Web publishing<br/>Power BI"])
+```
 
 ### ✨ Features
 
